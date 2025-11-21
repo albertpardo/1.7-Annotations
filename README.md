@@ -13,7 +13,7 @@ The Worker class has the attributes name, surname, price/hour, and the method ca
 
 From the main() method of the Main class, make the necessary calls to demonstrate the functioning of the @Override annotation.
 
-In in-person workers, the method to calculate their salary will receive the number of hours worked in the month as a parameter. When calculating the salary, the number of hours worked will be multiplied by the price/hour, plus the value of a static attribute called fuel that we will add in this class.
+In InPersonWorkers, the method to calculate their salary will receive the number of hours worked in the month as a parameter. When calculating the salary, the number of hours worked will be multiplied by the price/hour, plus the value of a static attribute called fuel that we will add in this class.
 
 In online workers, the method to calculate their salary will receive the number of hours worked in the month as a parameter. When calculating the salary, the number of hours worked will be multiplied by the price/hour and the price of a flat-rate Internet service, which will be a constant in the OnlineWorker class, will be added.
 
