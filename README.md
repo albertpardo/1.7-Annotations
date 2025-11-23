@@ -37,10 +37,11 @@ Add the possibility for the annotation created in the previous level to be regis
 
 Developed with:
 - *IDE* : IntelliJ IDEA 2025.2.4 (Community Edition)
+  - Bundled (Maven 3) Version: 3.9.9
 - *Java version* : openjdk 21.0.8 2025-07-15
+- *Jackson Databind* : 2.20.0  (see [Jackson Databind in MVN Repository](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind)) Used in **Level2** **Exercise 1**
 
 ## 🛠️ Installation
-
 Fork or download this repo.
 
 ## ▶️ Execution
