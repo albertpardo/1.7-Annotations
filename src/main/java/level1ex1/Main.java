@@ -1,5 +1,9 @@
 package level1ex1;
 
+import level1ex1.model.InPersonWorker;
+import level1ex1.model.OnlineWorker;
+import level1ex1.model.Worker;
+
 public class Main {
     private static <T extends Worker> void printWorkerInfoAndSalary(T worker, double workingHours){
         System.out.println("--- Worker info & salary ----");

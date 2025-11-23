@@ -1,6 +1,8 @@
 package level1ex2;
 
-import java.awt.*;
+import level1ex2.model.InPersonWorker;
+import level1ex2.model.OnlineWorker;
+import level1ex2.model.Worker;
 
 public class Main {
     private static <T extends Worker> void printWorkerInfoAndSalary(T worker, double workingHours){

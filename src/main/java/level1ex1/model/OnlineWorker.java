@@ -1,4 +1,4 @@
-package level1ex2;
+package level1ex1.model;
 
 public class OnlineWorker extends Worker {
 
@@ -16,10 +16,5 @@ public class OnlineWorker extends Worker {
     @Override
     public String toString(){
         return (super.toString() + ", InternetService: " + INTERNET_SERVICE);
-    }
-
-    @Deprecated
-    public String deprecatedMethodTest( double number){
-        return ("This is a deprecated method in 'OnlineWorker' object and has received the number : " + number);
     }
 }

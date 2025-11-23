@@ -1,4 +1,4 @@
-package level1ex2;
+package level1ex1.model;
 
 public class Worker {
     private String name;
@@ -15,7 +15,7 @@ public class Worker {
         return priceHour;
     }
 
-    protected double calculateSalary(double hours){
+    public double calculateSalary(double hours){
         return priceHour * hours;
     }
 
