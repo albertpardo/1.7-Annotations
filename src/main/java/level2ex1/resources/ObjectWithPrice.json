@@ -1,0 +1,10 @@
+[ {
+  "name" : "carOne",
+  "starsNumber" : 5
+}, {
+  "name" : "camelOne",
+  "starsNumber" : 7
+}, {
+  "name" : "bookOne",
+  "starsNumber" : 2
+} ]
